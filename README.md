@@ -5,6 +5,7 @@
 ```
 index.html          ตัวเกม (ฝังโมเดล 3D รูป เสียง และฟอนต์ไว้ในไฟล์)
 VDO/opening.mp4     วิดีโอ Opening
+sound/              เพลงประกอบ (BGM) และเสียงพากย์ — ต้องอัปขึ้นไปด้วย ไม่งั้นเกมไม่มีเสียง
 .nojekyll           ให้ GitHub Pages ส่งไฟล์ตรง ๆ ไม่ผ่าน Jekyll
 ```
 
@@ -12,7 +13,7 @@ VDO/opening.mp4     วิดีโอ Opening
 
 1. สร้าง repository ใหม่บน GitHub (Public)
 2. กด **Add file → Upload files** แล้วลากไฟล์ทั้งหมดในโฟลเดอร์นี้ขึ้นไป
-   (index.html, README.md, .nojekyll และโฟลเดอร์ VDO) → **Commit changes**
+   (index.html, README.md, .nojekyll และโฟลเดอร์ VDO กับ sound) → **Commit changes**
    - ถ้าลาก .nojekyll ไม่ขึ้น (ไฟล์ซ่อน) ข้ามได้ เกมยังทำงานปกติ
 3. ไปที่ **Settings → Pages** → Source: **Deploy from a branch** → Branch: **main** / **(root)** → Save
 4. รอ 1–2 นาที จะได้ลิงก์ `https://<username>.github.io/<repo-name>/`
